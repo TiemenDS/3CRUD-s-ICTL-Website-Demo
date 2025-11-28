@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OpenShelf – Jaarproject | Online Bibliotheek & Boekenbeheer</title>
+  <meta name="description" content="OpenShelf is een moderne online bibliotheek webapp met Blazor WebApp, API en Azure SQL-database. Beheer boeken: toevoegen, bekijken en verwijderen.">
+  <meta name="keywords" content="OpenShelf, online bibliotheek, boekenbeheer, Blazor, Azure SQL,">
+  <link rel="stylesheet" href="style.css">
+  <link rel="canonical" href="https://www.openshelf-project.com/">
+</head>
+<body>
+  <header>
+    <h1>OpenShelf – Online Bibliotheek</h1>
+    <p class="subtitle">Een slimme webapp voor boekenbeheer met Blazor, API & Azure Database</p>
+  </header>
+
+  <main>
+    <section class="omschrijving" id="omschrijving">
+      <h2>Omschrijving</h2>
+      <p>
+        <strong>OpenShelf</strong> is een moderne webapp waarmee gebruikers eenvoudig boeken kunnen toevoegen, bekijken en beheren.
+        De applicatie maakt gebruik van een <strong>Blazor WebApp</strong>, gekoppeld aan een <strong>Blazor API</strong> en een <strong>Azure SQL-database</strong>.
+        Via de API kunnen gebruikers 3 van de 4 CRUD-operaties uitvoeren: <em>Create</em>, <em>Read</em> en <em>Delete</em>.
+      </p>
+    </section>
+
+    <section class="crud" id="crud-operaties">
+      <h2>CRUD Operaties in OpenShelf</h2>
+      <ul>
+        <li><strong>Create:</strong> Boeken toevoegen aan de database met titel, auteur, ISBN en coverafbeelding.</li>
+        <li><strong>Read:</strong> Boeken bekijken via de webinterface met zoek- en filtermogelijkheden.</li>
+        <li><strong>Delete:</strong> Beheerders kunnen boeken veilig verwijderen via een admin-dashboard.</li>
+      </ul>
+    </section>
+
+    <section class="designs" id="figma-designs">
+      <h2>Figma Designs – CRUD Functionaliteiten</h2>
+
+      <div class="design">
+        <h3>Create – Boek toevoegen</h3>
+        <img src="images/CRUD 1 _ Create.png" alt="Blazor WebApp CRUD Create - Nieuw boek toevoegen" loading="lazy">
+      </div>
+
+      <div class="design">
+        <h3>Read – Boek bekijken</h3>
+        <img src="images/CRUD 2 _ Read.png" alt="Blazor WebApp CRUD Read - Boeken bekijken" loading="lazy">
+      </div>
+
+      <div class="design">
+        <h3>Delete – Boek verwijderen (Admin)</h3>
+        <img src="images/CRUD 3 _ Delete.png" alt="Blazor WebApp CRUD Delete - Boek verwijderen administratie" loading="lazy">
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 OpenShelf – Jaarproject ICT Labo | Ontworpen door Tiemen Deschacht</p>
+  </footer>
+</body>
+</html>
